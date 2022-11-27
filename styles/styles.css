@@ -1,0 +1,50 @@
+html {
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body{
+    margin-top: 100px;
+}
+
+.heading{
+    font-family: 'Lobster';
+    text-align: center;
+    font-size: 48px;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.Button{
+    background-color: transparent;
+    transition: 100ms;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 20px;
+    transition: 100ms;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+.Button:hover{
+
+    transform:scale(1.2)
+}
+
+.resultContainer {
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: 20px;
+  }
